@@ -1,0 +1,88 @@
+/* WSG itinerary layout. Colours come from a theme file in /assets/css/themes/. */
+:root {
+  --navy: #0E135B;
+  --navy-deep: #070A36;
+  --accent: #A01D22;        /* day nav bar, badges, card top borders, Print button */
+  --accent-ink: #ffffff;    /* text on the accent colour */
+  --header-sub: #F0B4B6;    /* small caps text on navy */
+  --page: #F4F5FA;
+  --ink: #1C2150;
+  --muted: #5D6386;
+  --card: #FFFFFF;
+  --line: #E7E8F2;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--page); color: var(--ink); font-family: Montserrat, Arial, Helvetica, sans-serif; padding-bottom: 84px; }
+
+header.topbar { background: radial-gradient(700px 300px at 100% 0, rgba(163,29,33,.28), transparent 60%), linear-gradient(135deg, var(--navy), var(--navy-deep)); color: #fff; padding: 22px 24px 20px; }
+.brandrow { max-width: 900px; margin: 0 auto; display: flex; align-items: center; gap: 14px; }
+.logo { width: 62px; height: 62px; border-radius: 50%; flex: 0 0 auto; background: #fff; border: 2px solid rgba(255,255,255,.6); object-fit: contain; padding: 4px; }
+.logo.event { padding: 0; border: 0; background: transparent; }
+.titles h1 { margin: 0; font-size: 24px; font-weight: 900; letter-spacing: -.01em; }
+.titles .sub { margin-top: 4px; font-size: 12px; font-weight: 800; letter-spacing: 1.3px; text-transform: uppercase; color: var(--header-sub); }
+
+nav.days { position: sticky; top: 0; z-index: 5; background: var(--accent); box-shadow: 0 3px 12px rgba(6,9,53,.22); display: flex; gap: 6px; overflow-x: auto; padding: 10px 18px; }
+nav.days a { flex: 0 0 auto; color: var(--accent-ink); border-radius: 10px; padding: 6px 12px; font-weight: 700; font-size: 13px; line-height: 1.3; text-align: center; text-decoration: none; }
+nav.days a .theme { display: block; font-weight: 600; font-size: 11px; opacity: .85; }
+nav.days a.on { background: var(--navy); color: #fff; }
+
+main { max-width: 900px; margin: 0 auto; padding: 20px 24px 0; }
+.infogrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 22px; }
+.infocard { background: var(--card); border-radius: 10px; padding: 12px 14px; box-shadow: 0 1px 3px rgba(6,9,53,.08); border-top: 3px solid var(--accent); }
+.infocard .k { font-size: 10px; font-weight: 800; letter-spacing: 1.3px; text-transform: uppercase; color: var(--accent); margin-bottom: 3px; }
+.infocard .v { font-size: 14px; font-weight: 700; }
+.infocard .v2 { display: block; font-size: 11.5px; font-weight: 600; color: var(--muted); margin-top: 3px; }
+
+.fixtures { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; margin: 0 0 18px; box-shadow: 0 2px 10px rgba(9,12,60,.06); }
+.fixtures h2 { margin: 0 0 4px; font-size: 15px; font-weight: 900; color: var(--navy); }
+.fixtures .sub { font-size: 11.5px; color: var(--muted); margin-bottom: 10px; }
+.fixtures .scroll { overflow-x: auto; }
+.fixtures table { width: 100%; border-collapse: collapse; }
+.fixtures th { text-align: left; font-size: 10px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); border-bottom: 1.5px solid var(--accent); padding: 0 8px 6px 0; }
+.fixtures td { font-size: 12.5px; padding: 7px 8px 7px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.fixtures td.w { white-space: nowrap; font-weight: 700; color: var(--navy); }
+.fixtures td.c { white-space: nowrap; color: var(--muted); }
+.fixtures tr:last-child td { border-bottom: 0; }
+
+.daygrid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; align-items: start; }
+section.day { scroll-margin-top: 70px; }
+.daycard { background: var(--card); border-radius: 12px; overflow: hidden; box-shadow: 0 1px 3px rgba(6,9,53,.08); margin-bottom: 18px; }
+.dayhead { background: linear-gradient(135deg, var(--navy), var(--navy-deep)); color: #fff; padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.dayhead .lbl { font-size: 10px; font-weight: 800; letter-spacing: 1.3px; color: var(--header-sub); text-transform: uppercase; }
+.dayhead .dt { font-size: 15px; font-weight: 800; margin-top: 2px; }
+.badge { background: var(--accent); color: var(--accent-ink); font-size: 11px; font-weight: 800; letter-spacing: .6px; text-transform: uppercase; border-radius: 999px; padding: 5px 10px; flex: 0 0 auto; }
+
+ol.timeline { list-style: none; margin: 0; padding: 10px 8px; }
+ol.timeline li { display: flex; align-items: flex-start; gap: 10px; padding: 9px 8px; border-left: 4px solid transparent; border-radius: 6px; }
+ol.timeline li.hl { border-left-color: var(--accent); background: rgba(163,29,33,.06); }
+.time { flex: 0 0 auto; width: 44px; font-weight: 800; font-size: 12.5px; color: var(--navy); padding-top: 6px; }
+.icon { flex: 0 0 auto; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: var(--navy); color: #fff; }
+.icon svg { width: 18px; height: 18px; display: block; }
+li.hl .icon { background: var(--accent); }
+.ev .t { font-weight: 700; font-size: 14px; }
+.ev .s { font-size: 12px; color: var(--muted); margin-top: 1px; }
+
+.note { text-align: center; font-size: 12px; color: var(--muted); margin: 6px 0 24px; }
+footer.bar { position: fixed; left: 0; right: 0; bottom: 0; background: linear-gradient(135deg, var(--navy), var(--navy-deep)); padding: 12px 20px; display: flex; gap: 10px; justify-content: flex-end; align-items: center; flex-wrap: wrap; }
+.btn { border-radius: 999px; padding: 9px 16px; font-weight: 700; font-size: 13px; text-decoration: none; border: 0; cursor: pointer; font-family: inherit; }
+.btn.share { background: transparent; color: #fff; border: 1.5px solid rgba(255,255,255,.6); }
+.btn.print { background: var(--accent); color: var(--accent-ink); }
+
+@media (max-width: 720px) {
+  .infogrid { grid-template-columns: 1fr 1fr; }
+  .daygrid { grid-template-columns: 1fr; }
+}
+@media (max-width: 420px) {
+  main { padding: 16px 16px 0; }
+  header.topbar { padding: 18px 16px; }
+  .titles h1 { font-size: 19px; }
+  .logo { width: 50px; height: 50px; }
+}
+@media print {
+  footer.bar, nav.days { display: none; }
+  body { padding-bottom: 0; }
+  .daycard, .infocard { break-inside: avoid; }
+  header.topbar, .dayhead, nav.days, .badge, .icon { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}

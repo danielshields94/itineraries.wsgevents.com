@@ -1,0 +1,4 @@
+# Pages are kept out of search results by the X-Robots-Tag: noindex header (netlify.toml).
+# Crawling stays allowed so WhatsApp/iMessage/email link previews still work.
+User-agent: *
+Allow: /

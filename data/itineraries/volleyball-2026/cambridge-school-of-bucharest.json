@@ -1,0 +1,331 @@
+{
+  "school": "Cambridge School of Bucharest",
+  "schoolLogo": "/assets/img/schools/cambridge-school-of-bucharest.png",
+  "dates": "Friday 27 November – Tuesday 1 December 2026",
+  "info": {
+    "Dates": {
+      "v": "Friday 27 November – Tuesday 1 December 2026",
+      "v2": "5 days · 4 nights"
+    },
+    "Staying at": {
+      "v": "Gloria Sports Arena",
+      "v2": "Belek, Antalya"
+    },
+    "Squad": {
+      "v": "U19 Girls & U16 Girls",
+      "v2": "Groups A & B · 8 group matches"
+    },
+    "Lead contact": "Dan",
+    "Country": "Romania",
+    "Updated": "19 Nov 2026"
+  },
+  "fixtures": [
+    {
+      "when": "Sat 28 · 09:00",
+      "squad": "U19 Girls",
+      "opponent": "Haileybury Astana",
+      "country": "Kazakhstan",
+      "stage": "Group B",
+      "court": "3"
+    },
+    {
+      "when": "Sat 28 · 10:30",
+      "squad": "U16 Girls",
+      "opponent": "Metropolitan School Frankfurt",
+      "country": "Germany",
+      "stage": "Group A",
+      "court": "1"
+    },
+    {
+      "when": "Sat 28 · 14:00",
+      "squad": "U16 Girls",
+      "opponent": "Sezin School",
+      "country": "Turkey",
+      "stage": "Group A",
+      "court": "1"
+    },
+    {
+      "when": "Sun 29 · 09:00",
+      "squad": "U16 Girls",
+      "opponent": "Aci Koleji Antalya",
+      "country": "Turkey",
+      "stage": "Group A",
+      "court": "3"
+    },
+    {
+      "when": "Sun 29 · 09:00",
+      "squad": "U19 Girls",
+      "opponent": "Aci Koleji Antalya",
+      "country": "Turkey",
+      "stage": "Group B",
+      "court": "1"
+    },
+    {
+      "when": "Sun 29 · 11:30",
+      "squad": "U16 Girls",
+      "opponent": "British School of Brussels",
+      "country": "Belgium",
+      "stage": "Group A",
+      "court": "4"
+    },
+    {
+      "when": "Sun 29 · 14:30",
+      "squad": "U16 Girls",
+      "opponent": "Swiss International School",
+      "country": "UAE",
+      "stage": "Group A",
+      "court": "2"
+    },
+    {
+      "when": "Mon 30 · 09:00",
+      "squad": "U16 Girls",
+      "opponent": "Plate Final (3rd v 4th) or Bowl Final (5th v 6th)",
+      "country": "",
+      "stage": "If you finish 3rd–6th",
+      "court": "1 or 2"
+    },
+    {
+      "when": "Mon 30 · 10:30",
+      "squad": "U19 Girls",
+      "opponent": "5th/6th or 7th/8th place match",
+      "country": "",
+      "stage": "If playing in the Plate",
+      "court": "1 or 2"
+    },
+    {
+      "when": "Mon 30 · 12:00",
+      "squad": "U16 Girls",
+      "opponent": "Cup Final (1st v 2nd)",
+      "country": "",
+      "stage": "If you finish top two",
+      "court": "1"
+    },
+    {
+      "when": "Mon 30 · 12:00",
+      "squad": "U19 Girls",
+      "opponent": "Bronze medal match",
+      "country": "If you lose the Cup",
+      "stage": "semi-final",
+      "court": "2"
+    },
+    {
+      "when": "Mon 30 · 14:30",
+      "squad": "U19 Girls",
+      "opponent": "Cup Final",
+      "country": "If you win the Cup",
+      "stage": "semi-final",
+      "court": "1"
+    }
+  ],
+  "days": [
+    {
+      "short": "27 Nov",
+      "date": "Friday 27 Nov",
+      "label": "Arrival",
+      "badge": "Arrival",
+      "items": [
+        {
+          "time": "15:35",
+          "title": "Fly Bucharest → Istanbul",
+          "detail": "Flight TK1040 · lands 18:05"
+        },
+        {
+          "time": "19:25",
+          "title": "Fly Istanbul → Antalya",
+          "detail": "Flight TK2428 · lands 20:45"
+        },
+        {
+          "time": "21:45",
+          "title": "Coach to Gloria Sports Arena",
+          "detail": "Sharing bus with British School of Brussels"
+        },
+        {
+          "time": "22:30",
+          "title": "Arrive & check in at Gloria Sports Arena",
+          "detail": "Approx. 45-minute transfer from the airport"
+        }
+      ]
+    },
+    {
+      "short": "28 Nov",
+      "date": "Saturday 28 Nov",
+      "label": "Gameday",
+      "badge": "Gameday · 4 matches",
+      "items": [
+        {
+          "time": "07:30",
+          "title": "Breakfast",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        },
+        {
+          "time": "08:30",
+          "title": "Nations Parade",
+          "detail": "All teams open the championships"
+        },
+        {
+          "time": "09:00",
+          "title": "Cambridge School of Bucharest vs Haileybury Astana"
+        },
+        {
+          "time": "10:30",
+          "title": "Cambridge School of Bucharest vs Metropolitan School Frankfurt"
+        },
+        {
+          "time": "12:15",
+          "title": "Team photos & interviews",
+          "detail": "Media session · 30 minutes"
+        },
+        {
+          "time": "12:45",
+          "title": "Lunch",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena · after your media session"
+        },
+        {
+          "time": "14:00",
+          "title": "Cambridge School of Bucharest vs Sezin School"
+        },
+        {
+          "time": "15:30",
+          "title": "Cambridge School of Bucharest vs Stamford American",
+          "detail": "Court 3"
+        },
+        {
+          "time": "19:00",
+          "title": "Dinner",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        }
+      ]
+    },
+    {
+      "short": "29 Nov",
+      "date": "Sunday 29 Nov",
+      "label": "Gameday",
+      "badge": "Gameday · 4 matches",
+      "items": [
+        {
+          "time": "07:30",
+          "title": "Breakfast",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        },
+        {
+          "time": "09:00",
+          "title": "Cambridge School of Bucharest vs Aci Koleji Antalya"
+        },
+        {
+          "time": "09:00",
+          "title": "Cambridge School of Bucharest vs Aci Koleji Antalya"
+        },
+        {
+          "time": "11:30",
+          "title": "Cambridge School of Bucharest vs British School of Brussels"
+        },
+        {
+          "time": "13:00",
+          "title": "Lunch",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena · before the U16 Girls 14:30 match"
+        },
+        {
+          "time": "14:30",
+          "title": "Cambridge School of Bucharest vs Swiss International School"
+        },
+        {
+          "time": "16:00",
+          "title": "Cup semi-final or Plate crossover",
+          "detail": "Please refer to WSG Volleyball app for fixture updates"
+        },
+        {
+          "time": "19:00",
+          "title": "Dinner",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        }
+      ]
+    },
+    {
+      "short": "30 Nov",
+      "date": "Monday 30 Nov",
+      "label": "Finals & Awards",
+      "badge": "Finals & Awards",
+      "items": [
+        {
+          "time": "07:30",
+          "title": "Breakfast",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        },
+        {
+          "time": "09:00",
+          "title": "Plate Final or Bowl Final",
+          "detail": "Court 1 or 2 · Please refer to WSG Volleyball app for fixture updates"
+        },
+        {
+          "time": "10:30",
+          "title": "5th/6th or 7th/8th place match",
+          "detail": "Court 1 or 2 · Please refer to WSG Volleyball app for fixture updates"
+        },
+        {
+          "time": "12:00",
+          "title": "Cup Final",
+          "detail": "Court 1 · Please refer to WSG Volleyball app for fixture updates"
+        },
+        {
+          "time": "12:00",
+          "title": "Bronze medal match",
+          "detail": "Court 2 · Please refer to WSG Volleyball app for fixture updates"
+        },
+        {
+          "time": "12:30",
+          "title": "Lunch",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena · fit around your match times"
+        },
+        {
+          "time": "14:30",
+          "title": "Cup Final",
+          "detail": "Court 1 · Please refer to WSG Volleyball app for fixture updates"
+        },
+        {
+          "time": "16:00",
+          "title": "Awards Presentation",
+          "detail": "All teams"
+        },
+        {
+          "time": "16:30",
+          "title": "All-Star Match",
+          "detail": "The tournament's best, together on one court",
+          "icon": "match"
+        },
+        {
+          "time": "19:00",
+          "title": "Dinner",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        }
+      ]
+    },
+    {
+      "short": "1 Dec",
+      "date": "Tuesday 1 Dec",
+      "label": "Departure",
+      "badge": "Departure",
+      "items": [
+        {
+          "time": "08:00",
+          "title": "Breakfast",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        },
+        {
+          "time": "12:30",
+          "title": "Lunch",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        },
+        {
+          "time": "13:30",
+          "title": "Coach to Antalya Airport",
+          "detail": "Please check out of Gloria Sports Arena before departure"
+        },
+        {
+          "time": "15:55",
+          "title": "Fly Antalya → Istanbul",
+          "detail": "Flight TK2419 · lands 17:30 · onward connection to Bucharest"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+/* WSG Volleyball - navy + orange (matches web.wsgevents.com volleyball itineraries) */
+:root {
+  --navy: #0E135B;
+  --navy-deep: #070A36;
+  --accent: #FD9A21;
+  --accent-ink: #2A1B00;   /* dark text on orange in the day bar */
+  --header-sub: #F0B4B6;
+}
+.badge, .btn.print { color: #fff; }
+ol.timeline li.hl { background: rgba(253,154,33,.10); }

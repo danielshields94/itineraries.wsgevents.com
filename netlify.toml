@@ -1,0 +1,32 @@
+# One Netlify site that hosts many sub-projects as plain folders.
+# Anything inside /public is served as-is: public/itineraries/foo/index.html -> /itineraries/foo
+[build]
+  publish = "public"
+  # No build step needed. If you start generating pages on deploy, use:
+  # command = "node tools/build-itineraries.mjs"
+
+# Keep every page out of search engines (sub-projects are shared by link only).
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "SAMEORIGIN"
+
+# Shared assets can be cached; HTML stays fresh so edits show up immediately.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
+# Section roots aren't public listings - send them to the homepage.
+[[redirects]]
+  from = "/itineraries"
+  to = "/"
+  status = 302
+
+[[redirects]]
+  from = "/itineraries/:event"
+  to = "/"
+  status = 302
