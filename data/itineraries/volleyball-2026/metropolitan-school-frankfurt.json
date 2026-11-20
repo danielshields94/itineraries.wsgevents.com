@@ -1,0 +1,290 @@
+{
+  "school": "Metropolitan School Frankfurt",
+  "schoolLogo": "/assets/img/schools/metropolitan-school-frankfurt.png",
+  "dates": "Friday 27 November – Tuesday 1 December 2026",
+  "pdf": "metropolitan-school-frankfurt.pdf",
+  "notice": "Items marked TBC are still to be confirmed. Sunday afternoon and Monday matches depend on final group positions.",
+  "info": {
+    "Dates": {
+      "v": "Friday 27 November – Tuesday 1 December 2026",
+      "v2": "5 days · 4 nights"
+    },
+    "Staying at": {
+      "v": "Gloria Sports Arena",
+      "v2": "Belek, Antalya"
+    },
+    "Squad": {
+      "v": "U16 Girls",
+      "v2": "Group A · 5 group matches"
+    },
+    "Lead contact": {
+      "v": "To be confirmed",
+      "v2": "We'll send this before you travel"
+    },
+    "Country": "Germany",
+    "Updated": "20 Nov 2026"
+  },
+  "showSquadColumn": false,
+  "fixtures": [
+    {
+      "when": "Sat 28 · 10:30",
+      "opponent": "Cambridge School of Bucharest",
+      "country": "Romania",
+      "stage": "Group A",
+      "court": "1",
+      "squad": "U16 Girls"
+    },
+    {
+      "when": "Sat 28 · 14:00",
+      "opponent": "Swiss International School",
+      "country": "UAE",
+      "stage": "Group A",
+      "court": "2",
+      "squad": "U16 Girls"
+    },
+    {
+      "when": "Sun 29 · 09:00",
+      "opponent": "British School of Brussels",
+      "country": "Belgium",
+      "stage": "Group A",
+      "court": "4",
+      "squad": "U16 Girls"
+    },
+    {
+      "when": "Sun 29 · 11:30",
+      "opponent": "Atatürk Anatolian High School",
+      "country": "Turkey",
+      "stage": "Group A",
+      "court": "3",
+      "squad": "U16 Girls"
+    },
+    {
+      "when": "Sun 29 · 14:30",
+      "opponent": "Aci Koleji Antalya",
+      "country": "Turkey",
+      "stage": "Group A",
+      "court": "1",
+      "squad": "U16 Girls"
+    },
+    {
+      "when": "Mon 30 · 09:00",
+      "opponent": "Plate Final (3rd v 4th) or Bowl Final (5th v 6th)",
+      "country": "",
+      "stage": "If you finish 3rd–6th",
+      "court": "1 or 2",
+      "squad": "U16 Girls"
+    },
+    {
+      "when": "Mon 30 · 12:00",
+      "opponent": "Cup Final (1st v 2nd)",
+      "country": "",
+      "stage": "If you finish top two",
+      "court": "1",
+      "squad": "U16 Girls"
+    }
+  ],
+  "days": [
+    {
+      "short": "27 Nov",
+      "date": "Friday 27 Nov",
+      "label": "Arrival",
+      "badge": "Arrival",
+      "items": [
+        {
+          "time": "TBC",
+          "tbc": true,
+          "title": "Flight arrives",
+          "detail": "Antalya Airport · flight details TBC"
+        },
+        {
+          "time": "TBC",
+          "tbc": true,
+          "title": "Coach to Gloria Sports Arena",
+          "detail": "Transfer time TBC"
+        },
+        {
+          "time": "TBC",
+          "tbc": true,
+          "title": "Arrive & check in at Gloria Sports Arena"
+        },
+        {
+          "time": "19:00",
+          "title": "Dinner",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena · if arriving in time"
+        }
+      ]
+    },
+    {
+      "short": "28 Nov",
+      "date": "Saturday 28 Nov",
+      "label": "Gameday",
+      "badge": "Gameday · 2 matches",
+      "items": [
+        {
+          "time": "07:30",
+          "title": "Breakfast",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        },
+        {
+          "time": "08:30",
+          "title": "Nations Parade",
+          "detail": "All teams open the championships"
+        },
+        {
+          "time": "09:00",
+          "title": "Team photos & interviews",
+          "detail": "Media session · 30 minutes"
+        },
+        {
+          "time": "10:30",
+          "court": "Court 1",
+          "title": "Metropolitan School Frankfurt vs Cambridge School of Bucharest",
+          "highlight": true
+        },
+        {
+          "time": "12:30",
+          "title": "Lunch",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        },
+        {
+          "time": "14:00",
+          "court": "Court 2",
+          "title": "Metropolitan School Frankfurt vs Swiss International School",
+          "highlight": true
+        },
+        {
+          "time": "19:00",
+          "title": "Dinner",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        }
+      ]
+    },
+    {
+      "short": "29 Nov",
+      "date": "Sunday 29 Nov",
+      "label": "Gameday",
+      "badge": "Gameday · 3 matches",
+      "items": [
+        {
+          "time": "07:30",
+          "title": "Breakfast",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        },
+        {
+          "time": "09:00",
+          "court": "Court 4",
+          "title": "Metropolitan School Frankfurt vs British School of Brussels",
+          "highlight": true
+        },
+        {
+          "time": "11:30",
+          "court": "Court 3",
+          "title": "Metropolitan School Frankfurt vs Atatürk Anatolian High School",
+          "highlight": true
+        },
+        {
+          "time": "13:00",
+          "title": "Lunch",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena · before your 14:30 match"
+        },
+        {
+          "time": "14:30",
+          "court": "Court 1",
+          "title": "Metropolitan School Frankfurt vs Aci Koleji Antalya",
+          "highlight": true
+        },
+        {
+          "time": "19:00",
+          "title": "Dinner",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        }
+      ]
+    },
+    {
+      "short": "30 Nov",
+      "date": "Monday 30 Nov",
+      "label": "Finals & Awards",
+      "badge": "Finals & Awards",
+      "items": [
+        {
+          "time": "07:30",
+          "title": "Breakfast",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        },
+        {
+          "time": "09:00",
+          "court": "Court 1 or 2",
+          "title": "Plate Final or Bowl Final",
+          "detail": "Please refer to WSG Volleyball app for fixture updates",
+          "tag": "IF YOU FINISH 3RD–6TH"
+        },
+        {
+          "time": "12:00",
+          "court": "Court 1",
+          "title": "Cup Final",
+          "detail": "Please refer to WSG Volleyball app for fixture updates",
+          "tag": "IF YOU FINISH TOP TWO"
+        },
+        {
+          "time": "13:15",
+          "title": "Lunch",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena · after the Cup Final"
+        },
+        {
+          "time": "16:00",
+          "title": "Awards Presentation",
+          "detail": "All teams"
+        },
+        {
+          "time": "16:30",
+          "title": "All-Star Match",
+          "detail": "The tournament's best, together on one court"
+        },
+        {
+          "time": "19:00",
+          "title": "Dinner",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        }
+      ]
+    },
+    {
+      "short": "1 Dec",
+      "date": "Tuesday 1 Dec",
+      "label": "Departure",
+      "badge": "Departure",
+      "items": [
+        {
+          "time": "08:00",
+          "title": "Breakfast",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        },
+        {
+          "time": "TBC",
+          "tbc": true,
+          "title": "Coach to Antalya Airport",
+          "detail": "Transfer time TBC"
+        },
+        {
+          "time": "TBC",
+          "tbc": true,
+          "title": "Flight departs",
+          "detail": "Antalya Airport · flight details TBC"
+        }
+      ]
+    }
+  ],
+  "goodToKnow": [
+    {
+      "title": "Meals",
+      "text": "All meals are served at Elly's Main Restaurant, Gloria Sports Arena."
+    },
+    {
+      "title": "Live fixtures & results",
+      "text": "Times can change during the event. The WSG Volleyball App always has the latest."
+    },
+    {
+      "title": "On-site help",
+      "text": "Inez Spence, Customer Experience Executive +447587568751"
+    }
+  ]
+}

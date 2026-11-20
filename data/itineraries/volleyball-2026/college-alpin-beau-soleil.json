@@ -1,0 +1,296 @@
+{
+  "school": "College Alpin Beau Soleil",
+  "schoolLogo": "/assets/img/schools/college-alpin-beau-soleil.png",
+  "dates": "Friday 27 November – Tuesday 1 December 2026",
+  "pdf": "college-alpin-beau-soleil.pdf",
+  "notice": "Items marked TBC are still to be confirmed. Sunday afternoon and Monday matches depend on final group positions.",
+  "info": {
+    "Dates": {
+      "v": "Friday 27 November – Tuesday 1 December 2026",
+      "v2": "5 days · 4 nights"
+    },
+    "Staying at": {
+      "v": "Gloria Sports Arena",
+      "v2": "Belek, Antalya"
+    },
+    "Squad": {
+      "v": "U19 Girls",
+      "v2": "Group A · 3 group matches"
+    },
+    "Lead contact": {
+      "v": "Jeremie",
+      "v2": "College Alpin Beau Soleil"
+    },
+    "Country": "Switzerland",
+    "Updated": "20 Nov 2026"
+  },
+  "showSquadColumn": false,
+  "fixtures": [
+    {
+      "when": "Sat 28 · 09:00",
+      "opponent": "Swiss International School",
+      "country": "UAE",
+      "stage": "Group A",
+      "court": "2",
+      "squad": "U19 Girls"
+    },
+    {
+      "when": "Sat 28 · 12:00",
+      "opponent": "Atatürk Anatolian High School",
+      "country": "Turkey",
+      "stage": "Group A",
+      "court": "2",
+      "squad": "U19 Girls"
+    },
+    {
+      "when": "Sat 28 · 15:30",
+      "opponent": "American International School Bucharest",
+      "country": "Romania",
+      "stage": "Group A",
+      "court": "1",
+      "squad": "U19 Girls"
+    },
+    {
+      "when": "Sun 29 · 16:00",
+      "opponent": "Cup semi-final or Plate (5th–8th) crossover",
+      "country": "",
+      "stage": "Depends on group position",
+      "court": "TBC",
+      "squad": "U19 Girls"
+    },
+    {
+      "when": "Mon 30 · 10:30",
+      "opponent": "5th/6th or 7th/8th place match",
+      "country": "",
+      "stage": "If playing in the Plate",
+      "court": "1 or 2",
+      "squad": "U19 Girls"
+    },
+    {
+      "when": "Mon 30 · 12:00",
+      "opponent": "Bronze medal match",
+      "country": "",
+      "stage": "If you lose the Cup semi-final",
+      "court": "2",
+      "squad": "U19 Girls"
+    },
+    {
+      "when": "Mon 30 · 14:30",
+      "opponent": "Cup Final",
+      "country": "",
+      "stage": "If you win the Cup semi-final",
+      "court": "1",
+      "squad": "U19 Girls"
+    }
+  ],
+  "days": [
+    {
+      "short": "27 Nov",
+      "date": "Friday 27 Nov",
+      "label": "Arrival",
+      "badge": "Arrival",
+      "items": [
+        {
+          "time": "13:45",
+          "title": "Flight XQ121 departs"
+        },
+        {
+          "time": "19:00",
+          "title": "Flight XQ121 arrives",
+          "detail": "Antalya Airport"
+        },
+        {
+          "time": "20:00",
+          "title": "Coach to Gloria Sports Arena"
+        },
+        {
+          "time": "20:45",
+          "title": "Arrive & check in at Gloria Sports Arena",
+          "detail": "Approx. 45-minute transfer from the airport"
+        },
+        {
+          "time": "20:45",
+          "title": "Dinner",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena · on arrival · last service 21:30"
+        }
+      ]
+    },
+    {
+      "short": "28 Nov",
+      "date": "Saturday 28 Nov",
+      "label": "Gameday",
+      "badge": "Gameday · 3 matches",
+      "items": [
+        {
+          "time": "07:30",
+          "title": "Breakfast",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        },
+        {
+          "time": "08:30",
+          "title": "Nations Parade",
+          "detail": "All teams open the championships"
+        },
+        {
+          "time": "09:00",
+          "court": "Court 2",
+          "title": "College Alpin Beau Soleil vs Swiss International School",
+          "highlight": true
+        },
+        {
+          "time": "10:45",
+          "title": "Team photos & interviews",
+          "detail": "Media session · 30 minutes"
+        },
+        {
+          "time": "12:00",
+          "court": "Court 2",
+          "title": "College Alpin Beau Soleil vs Atatürk Anatolian High School",
+          "highlight": true
+        },
+        {
+          "time": "13:30",
+          "title": "Lunch",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena · after your match"
+        },
+        {
+          "time": "15:30",
+          "court": "Court 1",
+          "title": "College Alpin Beau Soleil vs American International School Bucharest",
+          "highlight": true
+        },
+        {
+          "time": "19:00",
+          "title": "Dinner",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        }
+      ]
+    },
+    {
+      "short": "29 Nov",
+      "date": "Sunday 29 Nov",
+      "label": "Gameday",
+      "badge": "Gameday",
+      "items": [
+        {
+          "time": "08:30",
+          "title": "Breakfast",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        },
+        {
+          "time": "AM",
+          "title": "Free morning",
+          "detail": "Relax & enjoy the Gloria Sports Arena facilities"
+        },
+        {
+          "time": "12:30",
+          "title": "Lunch",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        },
+        {
+          "time": "16:00",
+          "title": "Cup semi-final or Plate crossover",
+          "detail": "Please refer to WSG Volleyball app for fixture updates",
+          "tag": "DEPENDS ON GROUP POSITION"
+        },
+        {
+          "time": "19:00",
+          "title": "Dinner",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        }
+      ]
+    },
+    {
+      "short": "30 Nov",
+      "date": "Monday 30 Nov",
+      "label": "Finals & Awards",
+      "badge": "Finals & Awards",
+      "items": [
+        {
+          "time": "07:30",
+          "title": "Breakfast",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        },
+        {
+          "time": "10:30",
+          "court": "Court 1 or 2",
+          "title": "5th/6th or 7th/8th place match",
+          "detail": "Please refer to WSG Volleyball app for fixture updates",
+          "tag": "IF PLAYING IN THE PLATE"
+        },
+        {
+          "time": "12:00",
+          "court": "Court 2",
+          "title": "Bronze medal match",
+          "detail": "Please refer to WSG Volleyball app for fixture updates",
+          "tag": "IF YOU LOSE THE CUP SEMI-FINAL"
+        },
+        {
+          "time": "12:30",
+          "title": "Lunch",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena · fit around your match time"
+        },
+        {
+          "time": "14:30",
+          "court": "Court 1",
+          "title": "Cup Final",
+          "detail": "Please refer to WSG Volleyball app for fixture updates",
+          "tag": "IF YOU WIN THE CUP SEMI-FINAL"
+        },
+        {
+          "time": "16:00",
+          "title": "Awards Presentation",
+          "detail": "All teams"
+        },
+        {
+          "time": "16:30",
+          "title": "All-Star Match",
+          "detail": "The tournament's best, together on one court"
+        },
+        {
+          "time": "19:00",
+          "title": "Dinner",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        }
+      ]
+    },
+    {
+      "short": "1 Dec",
+      "date": "Tuesday 1 Dec",
+      "label": "Departure",
+      "badge": "Departure",
+      "items": [
+        {
+          "time": "05:15",
+          "tbc": true,
+          "title": "Packed breakfast",
+          "detail": "Breakfast service starts at 07:30, after your departure"
+        },
+        {
+          "time": "05:45",
+          "title": "Coach to Antalya Airport",
+          "detail": "Please check out of Gloria Sports Arena before departure · Sharing bus with American International School Bucharest"
+        },
+        {
+          "time": "09:05",
+          "title": "Flight XQ9091 departs",
+          "detail": "Antalya Airport · arrives 13:10"
+        }
+      ]
+    }
+  ],
+  "goodToKnow": [
+    {
+      "title": "Meals",
+      "text": "All meals are served at Elly's Main Restaurant, Gloria Sports Arena."
+    },
+    {
+      "title": "Live fixtures & results",
+      "text": "Times can change during the event. The WSG Volleyball App always has the latest."
+    },
+    {
+      "title": "On-site help",
+      "text": "Inez Spence, Customer Experience Executive +447587568751"
+    }
+  ]
+}

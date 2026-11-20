@@ -1,0 +1,305 @@
+{
+  "school": "Haileybury Astana",
+  "schoolLogo": "/assets/img/schools/haileybury-astana.png",
+  "dates": "Thursday 26 November – Monday 30 November 2026",
+  "pdf": "haileybury-astana.pdf",
+  "notice": "Items marked TBC are still to be confirmed. Sunday afternoon and Monday matches depend on final group positions.",
+  "info": {
+    "Dates": {
+      "v": "Thursday 26 November – Monday 30 November 2026",
+      "v2": "5 days · 4 nights"
+    },
+    "Staying at": {
+      "v": "Gloria Sports Arena",
+      "v2": "Belek, Antalya"
+    },
+    "Squad": {
+      "v": "U19 Girls",
+      "v2": "Group B · 3 group matches"
+    },
+    "Lead contact": {
+      "v": "Richard",
+      "v2": "Haileybury Astana"
+    },
+    "Country": "Kazakhstan",
+    "Updated": "20 Nov 2026"
+  },
+  "showSquadColumn": false,
+  "fixtures": [
+    {
+      "when": "Sat 28 · 09:00",
+      "opponent": "Cambridge School of Bucharest",
+      "country": "Romania",
+      "stage": "Group B",
+      "court": "3",
+      "squad": "U19 Girls"
+    },
+    {
+      "when": "Sat 28 · 12:00",
+      "opponent": "Stamford American International School",
+      "country": "Singapore",
+      "stage": "Group B",
+      "court": "3",
+      "squad": "U19 Girls"
+    },
+    {
+      "when": "Sun 29 · 11:30",
+      "opponent": "Aci Koleji Antalya",
+      "country": "Turkey",
+      "stage": "Group B",
+      "court": "1",
+      "squad": "U19 Girls"
+    },
+    {
+      "when": "Sun 29 · 16:00",
+      "opponent": "Cup semi-final or Plate (5th–8th) crossover",
+      "country": "",
+      "stage": "Depends on group position",
+      "court": "TBC",
+      "squad": "U19 Girls"
+    },
+    {
+      "when": "Mon 30 · 10:30",
+      "opponent": "5th/6th or 7th/8th place match",
+      "country": "",
+      "stage": "If playing in the Plate",
+      "court": "1 or 2",
+      "squad": "U19 Girls"
+    },
+    {
+      "when": "Mon 30 · 12:00",
+      "opponent": "Bronze medal match",
+      "country": "",
+      "stage": "If you lose the Cup semi-final",
+      "court": "2",
+      "squad": "U19 Girls"
+    },
+    {
+      "when": "Mon 30 · 14:30",
+      "opponent": "Cup Final",
+      "country": "",
+      "stage": "If you win the Cup semi-final",
+      "court": "1",
+      "squad": "U19 Girls"
+    }
+  ],
+  "days": [
+    {
+      "short": "26 Nov",
+      "date": "Thursday 26 Nov",
+      "label": "Arrival",
+      "badge": "Arrival",
+      "items": [
+        {
+          "time": "04:55",
+          "title": "Fly Astana → Istanbul SAW",
+          "detail": "Flight PC229 · lands 08:40"
+        },
+        {
+          "time": "13:05",
+          "title": "Fly Istanbul → Antalya",
+          "detail": "Flight PC2008 · lands 14:15"
+        },
+        {
+          "time": "15:45",
+          "title": "Coach to Gloria Sports Arena"
+        },
+        {
+          "time": "16:30",
+          "title": "Arrive & check in at Gloria Sports Arena",
+          "detail": "Approx. 45-minute transfer from the airport"
+        },
+        {
+          "time": "17:30",
+          "title": "Team photos & interviews",
+          "detail": "Media session · 30 minutes"
+        },
+        {
+          "time": "18:00",
+          "title": "Training session",
+          "detail": "Gloria Sports Arena"
+        },
+        {
+          "time": "19:15",
+          "title": "Dinner",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena · after training"
+        }
+      ]
+    },
+    {
+      "short": "27 Nov",
+      "date": "Friday 27 Nov",
+      "label": "Land of Legends",
+      "badge": "Land of Legends",
+      "items": [
+        {
+          "time": "08:00",
+          "title": "Breakfast",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        },
+        {
+          "time": "09:30",
+          "title": "Coach to Land of Legends Theme Park",
+          "detail": "From Gloria Sports Arena"
+        },
+        {
+          "time": "10:00",
+          "title": "Land of Legends Theme Park",
+          "detail": "Day at the park · lunch at the park"
+        },
+        {
+          "time": "17:00",
+          "title": "Coach to Gloria Sports Arena"
+        },
+        {
+          "time": "19:00",
+          "title": "Dinner",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        }
+      ]
+    },
+    {
+      "short": "28 Nov",
+      "date": "Saturday 28 Nov",
+      "label": "Gameday",
+      "badge": "Gameday · 2 matches",
+      "items": [
+        {
+          "time": "07:30",
+          "title": "Breakfast",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        },
+        {
+          "time": "08:30",
+          "title": "Nations Parade",
+          "detail": "All teams open the championships"
+        },
+        {
+          "time": "09:00",
+          "court": "Court 3",
+          "title": "Haileybury Astana vs Cambridge School of Bucharest",
+          "highlight": true
+        },
+        {
+          "time": "12:00",
+          "court": "Court 3",
+          "title": "Haileybury Astana vs Stamford American International School",
+          "highlight": true
+        },
+        {
+          "time": "13:30",
+          "title": "Lunch",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena · after your match"
+        },
+        {
+          "time": "19:00",
+          "title": "Dinner",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        }
+      ]
+    },
+    {
+      "short": "29 Nov",
+      "date": "Sunday 29 Nov",
+      "label": "Gameday",
+      "badge": "Gameday · 1 match",
+      "items": [
+        {
+          "time": "08:00",
+          "title": "Breakfast",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        },
+        {
+          "time": "11:30",
+          "court": "Court 1",
+          "title": "Haileybury Astana vs Aci Koleji Antalya",
+          "highlight": true
+        },
+        {
+          "time": "13:00",
+          "title": "Lunch",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena · after your match"
+        },
+        {
+          "time": "16:00",
+          "title": "Cup semi-final or Plate crossover",
+          "detail": "Please refer to WSG Volleyball app for fixture updates",
+          "tag": "DEPENDS ON GROUP POSITION"
+        },
+        {
+          "time": "19:00",
+          "title": "Dinner",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        }
+      ]
+    },
+    {
+      "short": "30 Nov",
+      "date": "Monday 30 Nov",
+      "label": "Finals & Departure",
+      "badge": "Finals & Departure",
+      "items": [
+        {
+          "time": "07:30",
+          "title": "Breakfast",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        },
+        {
+          "time": "10:30",
+          "court": "Court 1 or 2",
+          "title": "5th/6th or 7th/8th place match",
+          "detail": "Please refer to WSG Volleyball app for fixture updates",
+          "tag": "IF PLAYING IN THE PLATE"
+        },
+        {
+          "time": "12:00",
+          "court": "Court 2",
+          "title": "Bronze medal match",
+          "detail": "Please refer to WSG Volleyball app for fixture updates",
+          "tag": "IF YOU LOSE THE CUP SEMI-FINAL"
+        },
+        {
+          "time": "12:30",
+          "title": "Lunch",
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena · fit around your match time"
+        },
+        {
+          "time": "14:30",
+          "court": "Court 1",
+          "title": "Cup Final",
+          "detail": "Please refer to WSG Volleyball app for fixture updates",
+          "tag": "IF YOU WIN THE CUP SEMI-FINAL"
+        },
+        {
+          "time": "16:00",
+          "title": "Awards Presentation",
+          "detail": "All teams"
+        },
+        {
+          "time": "16:30",
+          "title": "Coach to Antalya Airport",
+          "detail": "Please check out of Gloria Sports Arena before departure"
+        },
+        {
+          "time": "19:30",
+          "title": "Fly Antalya → Astana",
+          "detail": "Flight PC230"
+        }
+      ]
+    }
+  ],
+  "goodToKnow": [
+    {
+      "title": "Meals",
+      "text": "All meals are served at Elly's Main Restaurant, Gloria Sports Arena."
+    },
+    {
+      "title": "Live fixtures & results",
+      "text": "Times can change during the event. The WSG Volleyball App always has the latest."
+    },
+    {
+      "title": "On-site help",
+      "text": "Inez Spence, Customer Experience Executive +447587568751"
+    }
+  ]
+}
