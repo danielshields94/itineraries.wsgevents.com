@@ -1,8 +1,8 @@
 /* WSG master brand - navy + red. Default theme for events without their own. */
 :root {
   --navy: #10145C;
-  --navy-deep: #070A36;
   --accent: #A01D22;
   --accent-ink: #ffffff;
-  --header-sub: #F0B4B6;
+  --cond-bg: #FBEDED;
+  --cond-ink: #7A1519;
 }

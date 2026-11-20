@@ -4,7 +4,7 @@ One Netlify site that hosts many separate projects as folders, e.g.
 
 ```
 https://your-domain/                                      -> "not an active page" placeholder
-https://your-domain/itineraries/<event>/<school>          -> an itinerary
+https://your-domain/<event>/<school>                      -> an itinerary
 https://your-domain/<anything>/                           -> any other project you drop in
 ```
 
@@ -16,7 +16,7 @@ public/               EVERYTHING in here is the live website
   index.html          Homepage placeholder - edit the links list
   404.html            Shown for any unknown URL
   assets/             Shared CSS, JS, logos (brand colours are at the top of base.css)
-  itineraries/        Generated itinerary pages
+  volleyball-2026/    Generated itinerary pages (one folder per event)
 data/itineraries/     One JSON file per itinerary (source for the pages)
 tools/                build-itineraries.mjs - turns the JSON into pages
 ```
@@ -37,14 +37,15 @@ Copy one to make a theme for a new sport.
 
 To add a school:
 1. Copy `data/itineraries/volleyball-2026/cambridge-school-of-bucharest.json` to
-   `data/itineraries/volleyball-2026/<school-slug>.json` (lowercase, hyphens).
+   `data/volleyball-2026/<school-slug>.json` (lowercase, hyphens).
 2. Put the school's logo in `public/assets/img/schools/` and set `schoolLogo`.
 3. Edit `info`, `fixtures` and `days`. On a timeline item you can add `"highlight": true`,
    and `"icon"` (flight, coach, hotel, meal, flag, match, camera, trophy, info). Icons are
    otherwise picked from the title automatically. Set `"pdf": "file.pdf"` to link a PDF
    instead of using the browser's print.
 4. Run `node tools/build-itineraries.mjs` (needs Node 18+).
-5. Deploy. The page is live at `/itineraries/volleyball-2026/<school-slug>`.
+5. For a new event, add a redirect for its folder in `netlify.toml` (copy the volleyball-2026 one).
+6. Deploy. The page is live at `/volleyball-2026/<school-slug>`.
 
 ## Importing from the itinerary PDFs
 
@@ -55,7 +56,7 @@ python3 tools/import-pdf-itineraries.py data/itineraries/volleyball-2026 ~/Downl
 node tools/build-itineraries.mjs
 ```
 
-Copy each A4 PDF to `public/itineraries/volleyball-2026/<school-slug>/<school-slug>.pdf` so the
+Copy each A4 PDF to `public/volleyball-2026/<school-slug>/<school-slug>.pdf` so the
 "Print PDF" button opens it, and put the school's logo in `public/assets/img/schools/<school-slug>.png`.
 
 ## Adding any other project

@@ -1,5 +1,5 @@
 # One Netlify site that hosts many sub-projects as plain folders.
-# Anything inside /public is served as-is: public/itineraries/foo/index.html -> /itineraries/foo
+# Anything inside /public is served as-is: public/volleyball-2026/foo/index.html -> /volleyball-2026/foo
 [build]
   publish = "public"
   # No build step needed. If you start generating pages on deploy, use:
@@ -20,13 +20,16 @@
   [headers.values]
     Cache-Control = "public, max-age=86400"
 
-# Section roots aren't public listings - send them to the homepage.
+# Old links (/itineraries/...) permanently redirect to the new short links.
 [[redirects]]
-  from = "/itineraries"
-  to = "/"
-  status = 302
+  from = "/itineraries/*"
+  to = "/:splat"
+  status = 301
+  force = true   # applies even if an old copy of the /itineraries folder is still in the repo
 
+# Event folders aren't public listings - send them to the homepage.
+# Add one of these for each new event folder.
 [[redirects]]
-  from = "/itineraries/:event"
+  from = "/volleyball-2026"
   to = "/"
   status = 302

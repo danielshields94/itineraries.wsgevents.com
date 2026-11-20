@@ -166,7 +166,7 @@ def parse(path):
             else:
                 detail.append(main)
         it['title'] = ' '.join(title)
-        if detail: it['detail'] = ' · '.join(detail)
+        if detail: it['detail'] = '\n'.join(detail)
         if it['time'] == 'TBC': it['tbc'] = True
         if tags: it['tag'] = ' '.join(tags)
         day['items'].append(it)
