@@ -86,3 +86,18 @@ footer.bar { position: fixed; left: 0; right: 0; bottom: 0; background: linear-g
   .daycard, .infocard { break-inside: avoid; }
   header.topbar, .dayhead, nav.days, .badge, .icon { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 }
+
+/* Extras: notice, tags, court/TBC pills, conditional items, Good to know */
+.notice { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 10px; padding: 10px 14px; font-size: 12.5px; color: var(--muted); margin-bottom: 14px; }
+.ev { flex: 1 1 auto; min-width: 0; }
+.ev .tag { font-size: 9.5px; font-weight: 800; letter-spacing: 1.1px; text-transform: uppercase; color: var(--accent); margin-bottom: 1px; }
+li.hl .ev .tag { color: var(--navy); }
+.pills { flex: 0 0 auto; display: flex; flex-direction: column; gap: 4px; align-items: flex-end; padding-top: 5px; }
+.pill { background: var(--navy); color: #fff; font-size: 10.5px; font-weight: 800; border-radius: 999px; padding: 3px 8px; white-space: nowrap; }
+.pill.tbc { background: transparent; color: var(--accent); border: 1.5px solid var(--accent); }
+ol.timeline li.cond { border: 1.5px dashed var(--line); border-left: 4px dashed var(--accent); }
+li.cond .icon { background: transparent; color: var(--navy); border: 1.5px dashed var(--navy); }
+.gtk h2 { font-size: 15px; font-weight: 900; color: var(--navy); margin: 4px 0 10px; }
+.gtkgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 18px; }
+.gtk .v2 { font-size: 12.5px; color: var(--ink); }
+@media (max-width: 720px) { .gtkgrid { grid-template-columns: 1fr; } }

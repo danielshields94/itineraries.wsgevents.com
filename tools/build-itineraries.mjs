@@ -43,7 +43,7 @@ function guessIcon(title = '') {
   if (/award|presentation|medal ceremony/.test(t)) return 'trophy';
   if (/parade|ceremony|opening/.test(t)) return 'flag';
   if (/photo|media|interview/.test(t)) return 'camera';
-  if (/ vs | v |final|match|semi|crossover|game/.test(t)) return 'match';
+  if (/ vs | v |final|match|semi|crossover|game|training/.test(t)) return 'match';
   return 'info';
 }
 
@@ -53,7 +53,7 @@ const infoCard = (k, val) => {
   return `<div class="infocard"><div class="k">${esc(k)}</div><div class="v">${esc(v.v)}${v.v2 ? `<span class="v2">${esc(v.v2)}</span>` : ''}</div></div>`;
 };
 
-function render(ev, d, slug) {
+function render(ev, d, slug, eventSlug) {
   const eventName = d.event || ev.event;
   const days = d.days || [];
   const id = i => `${slug}-day-${i + 1}`;
@@ -64,12 +64,14 @@ function render(ev, d, slug) {
   const info = Object.entries(d.info || {}).map(([k, v]) => infoCard(k, v)).join('');
 
   const fx = d.fixtures || [];
-  const fixtures = fx.length ? `<div class="fixtures"><h2>Fixtures</h2>${(d.fixturesNote ?? ev.fixturesNote) ? `<div class="sub">${esc(d.fixturesNote ?? ev.fixturesNote)}</div>` : ''}<div class="scroll"><table><thead><tr><th>When</th><th>Squad</th><th>Opponent</th><th>Country</th><th>Stage</th><th>Court</th></tr></thead><tbody>${
-    fx.map(f => `<tr><td class="w">${esc(f.when)}</td><td class="c">${esc(f.squad)}</td><td>${esc(f.opponent)}</td><td class="c">${esc(f.country)}</td><td class="c">${esc(f.stage)}</td><td class="c">${esc(f.court)}</td></tr>`).join('')
+  const sq = d.showSquadColumn ?? new Set(fx.map(f => f.squad)).size > 1;
+  const fxTitle = !sq && fx[0]?.squad ? `${fx[0].squad} fixtures` : 'Fixtures';
+  const fixtures = fx.length ? `<div class="fixtures"><h2>${esc(fxTitle)}</h2>${(d.fixturesNote ?? ev.fixturesNote) ? `<div class="sub">${esc(d.fixturesNote ?? ev.fixturesNote)}</div>` : ''}<div class="scroll"><table><thead><tr><th>When</th>${sq ? '<th>Squad</th>' : ''}<th>Opponent</th><th>Country</th><th>Stage</th><th>Court</th></tr></thead><tbody>${
+    fx.map(f => `<tr><td class="w">${esc(f.when)}</td>${sq ? `<td class="c">${esc(f.squad)}</td>` : ''}<td>${esc(f.opponent)}</td><td class="c">${esc(f.country)}</td><td class="c">${esc(f.stage)}</td><td class="c">${esc(f.court)}</td></tr>`).join('')
   }</tbody></table></div></div>` : '';
 
   const dayHtml = days.map((day, i) => `<section class="day" id="${id(i)}"><div class="daycard"><div class="dayhead"><div><div class="lbl">Day ${i + 1}</div><div class="dt">${esc(day.date)}</div></div><div class="badge">${esc(day.badge || day.label)}</div></div><ol class="timeline">${
-    (day.items || []).map(it => `<li${it.highlight ? ' class="hl"' : ''}><div class="time">${esc(it.time)}</div><div class="icon">${ICONS[it.icon] || ICONS[guessIcon(it.title)]}</div><div class="ev"><div class="t">${esc(it.title)}</div>${it.detail ? `<div class="s">${esc(it.detail)}</div>` : ''}</div></li>`).join('')
+    (day.items || []).map(it => `<li class="${[it.highlight && 'hl', it.tag && /IF |DEPENDS/.test(it.tag) && 'cond'].filter(Boolean).join(' ')}"><div class="time">${esc(it.time)}</div><div class="icon">${ICONS[it.icon] || ICONS[guessIcon(it.title)]}</div><div class="ev">${it.tag ? `<div class="tag">${esc(it.tag)}</div>` : ''}<div class="t">${esc(it.title)}</div>${it.detail ? `<div class="s">${esc(it.detail)}</div>` : ''}</div>${(it.court || (it.tbc && it.time !== 'TBC')) ? `<div class="pills">${it.court ? `<span class="pill">${esc(it.court)}</span>` : ''}${it.tbc && it.time !== 'TBC' ? '<span class="pill tbc">TBC</span>' : ''}</div>` : ''}</li>`).join('')
   }</ol></div></section>`).join('');
 
   const schoolLogo = d.schoolLogo
@@ -79,8 +81,9 @@ function render(ev, d, slug) {
   const sub = [d.location || ev.location, d.dates].filter(Boolean).join(' · ');
   const title = `Itinerary: ${eventName} x ${d.school}`;
   const theme = d.theme || ev.theme || 'wsg';
-  const printBtn = d.pdf
-    ? `<a class="btn print" href="${esc(d.pdf)}" target="_blank" rel="noopener">Print PDF</a>`
+  const pdf = d.pdf && !d.pdf.includes('/') ? `/itineraries/${eventSlug}/${slug}/${d.pdf}` : d.pdf;
+  const printBtn = pdf
+    ? `<a class="btn print" href="${esc(pdf)}" target="_blank" rel="noopener">Print PDF</a>`
     : `<button class="btn print" data-print>Print PDF</button>`;
 
   return `<!DOCTYPE html>
@@ -114,9 +117,11 @@ ${eventLogo ? `<meta property="og:image" content="${esc(d.eventLogo || ev.eventL
 </header>
 ${days.length ? `<nav class="days">${nav}</nav>` : ''}
 <main>
+${d.notice ? `<div class="notice">${esc(d.notice)}</div>` : ''}
 ${info ? `<div class="infogrid">${info}</div>` : ''}
 ${fixtures}
 <div class="daygrid">${dayHtml}</div>
+${(d.goodToKnow || []).length ? `<section class="gtk"><h2>Good to know</h2><div class="gtkgrid">${d.goodToKnow.map(g => `<div class="infocard"><div class="k">${esc(g.title)}</div><div class="v2">${esc(g.text)}</div></div>`).join('')}</div></section>` : ''}
 <p class="note">${esc(d.note || ev.note || 'Times may be subject to change.')}</p>
 </main>
 <footer class="bar"><button class="btn share" data-share>Share</button>${printBtn}</footer>
@@ -142,7 +147,7 @@ for (const event of await readdir(dataDir, { withFileTypes: true })) {
     const data = JSON.parse(await readFile(join(dataDir, event.name, file), 'utf8'));
     const dest = join(outDir, event.name, slug);
     await mkdir(dest, { recursive: true });
-    await writeFile(join(dest, 'index.html'), render(ev, data, slug));
+    await writeFile(join(dest, 'index.html'), render(ev, data, slug, event.name));
     console.log(`✓ /itineraries/${event.name}/${slug}`);
     count++;
   }

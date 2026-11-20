@@ -46,6 +46,18 @@ To add a school:
 4. Run `node tools/build-itineraries.mjs` (needs Node 18+).
 5. Deploy. The page is live at `/itineraries/volleyball-2026/<school-slug>`.
 
+## Importing from the itinerary PDFs
+
+If the itineraries come as A4 PDFs (like "School - WSG Volleyball 2026 Itinerary (A4).pdf"):
+
+```
+python3 tools/import-pdf-itineraries.py data/itineraries/volleyball-2026 ~/Downloads/*"(A4).pdf"
+node tools/build-itineraries.mjs
+```
+
+Copy each A4 PDF to `public/itineraries/volleyball-2026/<school-slug>/<school-slug>.pdf` so the
+"Print PDF" button opens it, and put the school's logo in `public/assets/img/schools/<school-slug>.png`.
+
 ## Adding any other project
 
 Make a folder in `public/` (e.g. `public/supporters/football-2026/`) with an `index.html`.
