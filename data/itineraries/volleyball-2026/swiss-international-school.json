@@ -399,8 +399,8 @@
     {
       "short": "1 Dec",
       "date": "Tuesday 1 Dec",
-      "label": "Departure",
-      "badge": "Departure",
+      "label": "Antalya & departure",
+      "badge": "Antalya & departure",
       "items": [
         {
           "time": "08:00",
@@ -408,14 +408,19 @@
           "detail": "Elly's Main Restaurant, Gloria Sports Arena"
         },
         {
-          "time": "12:30",
-          "title": "Lunch",
-          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+          "time": "11:30",
+          "title": "Coach to Kaleiçi Old Town, Antalya",
+          "detail": "Please check out of Gloria Sports Arena before departure · luggage travels on the coach"
+        },
+        {
+          "time": "PM",
+          "title": "Kaleiçi Old Town",
+          "detail": "Explore Antalya's old town · lunch in Kaleiçi"
         },
         {
           "time": "17:30",
           "title": "Coach to Antalya Airport",
-          "detail": "Please check out of Gloria Sports Arena before departure"
+          "detail": "From Kaleiçi Old Town"
         },
         {
           "time": "21:30",
