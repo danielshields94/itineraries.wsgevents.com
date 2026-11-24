@@ -22,7 +22,7 @@
       "v2": "Haileybury Astana"
     },
     "Country": "Kazakhstan",
-    "Updated": "20 Nov 2026"
+    "Updated": "24 Nov 2026"
   },
   "showSquadColumn": false,
   "fixtures": [
@@ -110,11 +110,6 @@
           "detail": "Approx. 45-minute transfer from the airport"
         },
         {
-          "time": "17:30",
-          "title": "Team photos & interviews",
-          "detail": "Media session · 30 minutes"
-        },
-        {
           "time": "18:00",
           "title": "Training session",
           "detail": "Gloria Sports Arena"
@@ -136,6 +131,11 @@
           "time": "08:00",
           "title": "Breakfast",
           "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+        },
+        {
+          "time": "09:00",
+          "title": "Team photos & interviews",
+          "detail": "Media session · 30 minutes"
         },
         {
           "time": "09:30",

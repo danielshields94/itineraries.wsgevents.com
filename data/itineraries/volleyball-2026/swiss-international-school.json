@@ -22,7 +22,7 @@
       "v2": "Swiss International School"
     },
     "Country": "UAE",
-    "Updated": "20 Nov 2026"
+    "Updated": "24 Nov 2026"
   },
   "showSquadColumn": true,
   "fixtures": [
@@ -166,19 +166,14 @@
           "detail": "Elly's Main Restaurant, Gloria Sports Arena"
         },
         {
-          "time": "14:00",
-          "title": "Team photos & interviews",
-          "detail": "Media session · 30 minutes"
-        },
-        {
-          "time": "14:30",
+          "time": "18:00",
           "title": "Training session",
           "detail": "Gloria Sports Arena"
         },
         {
-          "time": "19:00",
+          "time": "19:15",
           "title": "Dinner",
-          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena · after training"
         }
       ]
     },
@@ -195,6 +190,11 @@
         },
         {
           "time": "10:00",
+          "title": "Team photos & interviews",
+          "detail": "Media session · 30 minutes"
+        },
+        {
+          "time": "10:30",
           "title": "Training session",
           "detail": "Gloria Sports Arena"
         },
