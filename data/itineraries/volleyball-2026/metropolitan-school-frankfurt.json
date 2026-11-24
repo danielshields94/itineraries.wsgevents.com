@@ -22,7 +22,7 @@
       "v2": "We'll send this before you travel"
     },
     "Country": "Germany",
-    "Updated": "20 Nov 2026"
+    "Updated": "24 Nov 2026"
   },
   "showSquadColumn": false,
   "fixtures": [
@@ -91,26 +91,24 @@
       "badge": "Arrival",
       "items": [
         {
-          "time": "TBC",
-          "tbc": true,
-          "title": "Flight arrives",
-          "detail": "Antalya Airport · flight details TBC"
+          "time": "13:45",
+          "title": "Fly Frankfurt → Antalya",
+          "detail": "Flight XQ141 · SunExpress · lands 19:15"
         },
         {
-          "time": "TBC",
-          "tbc": true,
-          "title": "Coach to Gloria Sports Arena",
-          "detail": "Transfer time TBC"
+          "time": "19:15",
+          "title": "Own transfer to Gloria Sports Arena",
+          "detail": "Arranged by the school · approx. 45 minutes from the airport"
         },
         {
-          "time": "TBC",
-          "tbc": true,
-          "title": "Arrive & check in at Gloria Sports Arena"
+          "time": "20:00",
+          "title": "Arrive & check in at Gloria Sports Arena",
+          "detail": "Approx. arrival · Gloria reception"
         },
         {
-          "time": "19:00",
+          "time": "Late",
           "title": "Dinner",
-          "detail": "Elly's Main Restaurant, Gloria Sports Arena · if arriving in time"
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena · late dinner for your evening arrival"
         }
       ]
     },
@@ -254,21 +252,19 @@
       "badge": "Departure",
       "items": [
         {
-          "time": "08:00",
+          "time": "Early",
           "title": "Breakfast",
-          "detail": "Elly's Main Restaurant, Gloria Sports Arena"
+          "detail": "Elly's Main Restaurant, Gloria Sports Arena · before you leave"
         },
         {
-          "time": "TBC",
-          "tbc": true,
-          "title": "Coach to Antalya Airport",
-          "detail": "Transfer time TBC"
+          "time": "Early",
+          "title": "Own transfer to Antalya Airport",
+          "detail": "Arranged by the school · please check out of Gloria Sports Arena before you leave"
         },
         {
-          "time": "TBC",
-          "tbc": true,
-          "title": "Flight departs",
-          "detail": "Antalya Airport · flight details TBC"
+          "time": "10:45",
+          "title": "Fly Antalya → Frankfurt",
+          "detail": "Flight XQ140 · SunExpress · lands 12:45"
         }
       ]
     }
