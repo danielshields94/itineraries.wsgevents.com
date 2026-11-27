@@ -101,7 +101,7 @@
     {
       "when": "Mon 30 · 09:00",
       "squad": "U16 Girls",
-      "opponent": "Plate Final (3rd v 4th) or Bowl Final (5th v 6th)",
+      "opponent": "Bronze medal match (3rd v 4th) or 5th/6th place match",
       "country": "",
       "stage": "If you finish 3rd–6th",
       "court": "1 or 2"
@@ -342,7 +342,7 @@
         {
           "time": "09:00",
           "court": "Court 1 or 2",
-          "title": "Plate Final or Bowl Final",
+          "title": "Bronze medal match or 5th/6th place match",
           "detail": "Please refer to WSG Volleyball app for fixture updates",
           "tag": "U16 GIRLS · IF YOU FINISH 3RD–6TH"
         },
